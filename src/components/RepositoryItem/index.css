@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.repo-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 24px;
+  height: 300px;
+  margin-bottom: 24px;
+  padding: 24px;
+  width: 100%;
+}
+@media screen and (min-width: 576px) {
+  .repo-items {
+    width: 45%;
+    margin-left: 16px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .repo-items {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .repo-items {
+    width: 23%;
+  }
+}
+
+.repository-image {
+  height: 100px;
+  width: 100px;
+}
+.repo-heading {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+.stars-container {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin-bottom: 16px;
+}
+.star-image {
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+}
+.stars-count {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0px;
+}
